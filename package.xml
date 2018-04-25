@@ -10,7 +10,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <build_depend>libopencv-dev</build_depend>
+  <build_export_depend>libopencv-dev</build_export_depend>
 
   <exec_depend>libopencv-dev</exec_depend>
 </package>
