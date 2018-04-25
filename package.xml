@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>opencv3</name>
+  <version>0.0.0</version>
+  <description>The transitional package from 'opencv3' rosdep keys to 'libopencv-dev' keys</description>
+  <maintainer email="clalancette@openrobotics.org">Chris Lalancette</maintainer>
+  <license>BSD</license>
+
+  <author>Chris Lalancette</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>libopencv-dev</build_depend>
+
+  <exec_depend>libopencv-dev</exec_depend>
+</package>
